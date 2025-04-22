@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "cover": "https://i.ibb.co.com/Y41QyD5s/4102879-971.jpg",
+      "title": "The Rise of JavaScript Frameworks",
+      "author": "Sophie Miller",
+      "author_img": "https://i.ibb.co.com/d07T16nS/2148148708.jpg",
+      "posted_date": "2025-04-15",
+      "reading_time": 5,
+      "hashtags": ["#JavaScript", "#Frontend", "#WebDevelopment"]
+    },
+    {
+      "id": 2,
+      "cover": "https://i.ibb.co.com/bj7gMD2S/234945574-11127054.jpg",
+      "title": "Mastering RESTful APIs with Django",
+      "author": "Ahmed Khan",
+      "author_img": "https://i.ibb.co.com/d07T16nS/2148148708.jpg",
+      "posted_date": "2025-04-12",
+      "reading_time": 7,
+      "hashtags": ["#Django", "#API", "#Backend"]
+    },
+    {
+      "id": 3,
+      "cover": "https://i.ibb.co.com/Mk9sQV5B/15292203-5568837.jpg",
+      "title": "10 Tips to Improve Your Coding Skills",
+      "author": "Lena Wang",
+      "author_img": "https://i.ibb.co.com/d4kjGHPb/255.jpg",
+      "posted_date": "2025-04-10",
+      "reading_time": 4,
+      "hashtags": ["#Programming", "#Tips", "#Developer"]
+    },
+    {
+      "id": 4,
+      "cover": "https://i.ibb.co.com/YBX0DyCC/4115846-23901.jpg",
+      "title": "Node.js vs Django: Backend Showdown",
+      "author": "Carlos Rivera",
+      "author_img": "https://i.ibb.co.com/wFwYvTHv/78988.jpg",
+      "posted_date": "2025-04-08",
+      "reading_time": 6,
+      "hashtags": ["#Nodejs", "#Django", "#Backend"]
+    },
+    {
+      "id": 5,
+      "cover": "https://i.ibb.co.com/tMBpYGJT/2148785012.jpg",
+      "title": "How to Build a Blog with React",
+      "author": "Emily Johnson",
+      "author_img": "https://i.ibb.co.com/Ng6W6CVk/5677.jpg",
+      "posted_date": "2025-04-05",
+      "reading_time": 8,
+      "hashtags": ["#React", "#Blog", "#WebDev"]
+    }
+  ]
+  
