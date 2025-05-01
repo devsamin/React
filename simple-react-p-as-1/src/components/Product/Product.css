@@ -1,0 +1,18 @@
+.product{
+    border: 2px solid rgb(178, 160, 160);
+    padding: 14px;
+}
+.product-img{
+    width: 200px;
+    height: 300px;
+}
+.addtocart{
+    background-color: rgb(169, 72, 72);
+    color: aliceblue;
+    padding: 15px;
+}
+.addtocart:hover{
+    background-color: brown;
+    color: aliceblue;
+    padding: 15px;
+}

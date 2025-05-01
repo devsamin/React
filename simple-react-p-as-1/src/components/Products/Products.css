@@ -1,0 +1,6 @@
+.product-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    border: 2px solid rgb(174, 112, 112);
+}

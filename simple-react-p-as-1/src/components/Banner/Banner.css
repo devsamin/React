@@ -1,0 +1,20 @@
+.banner-contaienr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgb(236, 194, 194), rgb(107, 201, 126));
+    min-height: 50vh;
+}
+.claim-button{
+    margin-top: 22px;
+    padding: 25px;
+    background-color: yellow;
+    border-radius: 12px;
+    border: 4px solid black;
+    font-weight: bold;
+
+}
+.claim-button:hover {
+    background-color: rgb(202, 202, 12);
+  }
