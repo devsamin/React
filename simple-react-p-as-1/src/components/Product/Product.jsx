@@ -1,8 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './Product.css'
-const Product = ({products,handelprice}) => {
-    console.log(products)
+const Product = ({products,handelprice,showselected,setshowselected,removeItem}) => {
+    // console.log(products)
+    // const disextracontent = showselected 
     const {title, image, category, price} = products
     // console.log(image)
     return (
@@ -13,8 +14,14 @@ const Product = ({products,handelprice}) => {
 
             <div className='flex justify-between'>
                 <h3 className='text-2xl '> Price : ${price}</h3>
-                <button onClick={()=>handelprice(price, products)} className='addtocart'>Add To Cart</button>
+                {
+                    !showselected ? <button onClick={()=>handelprice(price, products)} className='addtocart'>Add To Cart</button> : ""
+                }
             </div>
+            {
+                showselected ? <button onClick={()=>removeItem(products.id)} className='addtocart'>Remove</button> : ""
+            }
+            
         </div>
     );
 };
